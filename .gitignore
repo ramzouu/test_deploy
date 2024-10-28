@@ -1,0 +1,28 @@
+# Fichiers de configuration locaux
+.env
+
+# Compilations Python
+__pycache__/
+*.py[cod]
+
+# Dossier de l'environnement virtuel
+venv/
+.env/
+*.env
+
+# Clés de secret Django
+*.secret
+
+# Fichiers de base de données locales
+db.sqlite3
+
+# Fichiers d'IDE
+.vscode/
+.idea/
+
+# Dossier des migrations
+**/migrations/
+
+# Fichiers statiques générés
+staticfiles/
+media/
